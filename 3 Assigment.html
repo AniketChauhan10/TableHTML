@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Styled Table</title>  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .table-container {
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            outline: 2px solid #3498db; /* Outline around the table */
+        }
+
+        th, td {
+            border: 1px solid #3498db; /* Border for table cells */
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Zebra striping effect */
+        }
+
+        tr:hover {
+            background-color: #e0e0e0; /* Highlight on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vrun</td>
+                    <td>28</td>
+                    <td>Ambala</td>
+                </tr>
+                <tr>
+                    <td>Rajat</td>
+                    <td>34</td>
+                    <td>Lajpat nager</td>
+                </tr>
+                <tr>
+                    <td>Rupali</td>
+                    <td>22</td>
+                    <td>Rai</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
